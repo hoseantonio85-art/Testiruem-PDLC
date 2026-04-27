@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # замените на вашу основную ветку
+    branches: ["interactive-prototype-validation-aa783"] # замените на вашу основную ветку
 
 # Разрешения, необходимые для деплоя на Pages
 permissions:
