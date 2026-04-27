@@ -31,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/ # 👈 УКАЖИТЕ ВАШУ ПАПКУ ВЫВОДА (например, build/ или out/)
+          path: next build/ # 👈 УКАЖИТЕ ВАШУ ПАПКУ ВЫВОДА (например, build/ или out/)
 
   deploy:
     needs: build
